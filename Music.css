@@ -1,0 +1,50 @@
+
+*CSS (styles.css)*
+
+```
+.music-player {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.music-info {
+    text-align: center;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e0e0e0;
+}
+
+.progress-bar {
+    margin-top: 20px;
+}
+
+progress {
+    width: 100%;
+}
+
+.volume-control {
+    margin-top: 20px;
+}
+
+#volume {
+    width: 100%;
+}
